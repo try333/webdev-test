@@ -1,6 +1,6 @@
 <?php
-require_once("controller/loginAuth.php");
-require_once("language/en.php");
+require("controller/loginAuth.php");
+require("controller/locale.php");
 ?>
 
 <!DOCTYPE html>

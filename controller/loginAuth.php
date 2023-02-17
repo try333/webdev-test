@@ -1,6 +1,5 @@
 <?php
 require("database/db.php");
-require("language/en.php");
 $subdomain = strtok($_SERVER['HTTP_HOST'], '.');
 //echo $subdomain;
 

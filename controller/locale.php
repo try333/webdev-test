@@ -7,6 +7,3 @@ if (isset($SESSION['localex'])) {
 } elseif (!isset($SESSION['localex'])) {
     include('language/' . $_SESSION['localex'] . '.php');
 }
-
-
-echo $_SESSION['localex'];
