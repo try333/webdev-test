@@ -18,7 +18,7 @@ if ($subdomain != $domain_link) {
     if ($row_number == 1) {
     } else {
 
-        echo "<script> alert('" . $langArray['subdomain_404'] . "');
+        echo "<script> alert('Subdomain not found.');
             window.location.href='" . $link . "';
             </script>";
     }
